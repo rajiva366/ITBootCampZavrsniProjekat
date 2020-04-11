@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Projekat]">
+  <test thread-count="5" name="ALL Tests(failed)">
+    <classes>
+      <class name="TestRegistration">
+        <methods>
+          <include name="registerOneAccount"/>
+          <include name="register30Accounts"/>
+          <include name="closeSite"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestRegistration -->
+      <class name="TestLogin">
+        <methods>
+          <include name="loginTest"/>
+          <include name="openBrowser"/>
+          <include name="closeSite"/>
+        </methods>
+      </class> <!-- TestLogin -->
+    </classes>
+  </test> <!-- ALL Tests(failed) -->
+</suite> <!-- Failed suite [TestNG Projekat] -->

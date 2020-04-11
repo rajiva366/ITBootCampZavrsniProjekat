@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "TestNG Projekat">
+<test name = "ALL Tests">
+	<classes>
+	<class name ="TestWomenDresses"/>
+	<class name ="TestSummerDresses"/>
+	<class name ="TestRegistration"/>
+	<class name ="TestLogin"/>
+	</classes>
+</test>
+
+</suite>
